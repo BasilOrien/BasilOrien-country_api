@@ -9,7 +9,7 @@ const router = Router();
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
 router.get("/", function(req,res){
-    res.send("el v4 esta Ok")
+    res.send("el v4.3 esta Ok")
 })
 router.use("/countries", countries);
 router.use("/activities", activities);
